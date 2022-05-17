@@ -689,11 +689,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[                        
-            InlineKeyboardButton('⚜️ 𝕆𝕌ℝ ℂℍ𝔸ℕℕ𝔼𝕃 ⚜️', url='https://t.me/cinemapranthanzz5')
+            InlineKeyboardButton('⚜️ 𝕌ℙ𝔻𝔸𝕋𝔼𝕊 ℂℍ𝔸ℕℕ𝔼𝕃 ⚜️', url='https://t.me/NewRelease2')
             ],[                       
-            InlineKeyboardButton('⚡️ 𝕄𝔸𝕀ℕ 𝔾ℝ𝕆𝕌ℙ ⚡️', url='https://t.me/cinemapranthanzz1')
+            InlineKeyboardButton('⚡️ 𝕄𝔸𝕀ℕ 𝔾ℝ𝕆𝕌ℙ ⚡️', url='https://t.me/MoviePlex_TG')
             ],[ 
-            InlineKeyboardButton('🔰 𝔸𝔹𝕆𝕌𝕋 🔰', callback_data='about')
+            InlineKeyboardButton('😊 𝔸𝔹𝕆𝕌𝕋 ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -790,26 +790,28 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('CREATOR', url='https://t.me/CP_JUPITER')
+            InlineKeyboardButton('𝘾𝙧𝙚𝙖𝙩𝙤𝙧', url='https://t.me/CP_JUPITER')
             ],[ 
-            InlineKeyboardButton('REVIEW CHANNEL', url='https://t.me/cinemapranthanzz5')
+            InlineKeyboardButton('𝙐𝙥𝙙𝙖𝙩𝙚𝙨 𝘾𝙝𝙖𝙣𝙣𝙚𝙡', url='https://t.me/NewRelease2')
             ],[            
-            InlineKeyboardButton('MAIN GROUP', url='https://t.me/cinemapranthanzz1')
+            InlineKeyboardButton('𝙈𝙖𝙞𝙣 𝙂𝙧𝙤𝙪𝙥', url='https://t.me/MoviePlex_TG')
             ],[
-            InlineKeyboardButton('SOURCE CODE', url='https://t.me/nokki_irunno_ippo_kittum')             
-            ],[                            
+            InlineKeyboardButton('𝙈𝙖𝙞𝙣𝙩𝙖𝙣𝙚𝙙 𝘽𝙮', url='https://t.me/UnKnOwN_HaCKeR_2_0')             
+            ],[
+            InlineKeyboardButton('𝙎𝙤𝙪𝙧𝙘𝙚 𝘾𝙤𝙙𝙚', url='https://t.me/nokki_irunno_ippo_kittum')
+            ],[                
             InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 ', callback_data='start'),
             InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="➤"
+            text="⦿"
         )
         await query.message.edit_text(
-            text="➤➤➤"
+            text="⦿⦿⦿"
         )
         await query.message.edit_text(
-            text="➤➤➤➤➤➤➤"
+            text="⦿⦿⦿⦿⦿⦿⦿"
         )
         await query.message.edit_text(
             text=script.ABOUT_TXT,        
@@ -818,7 +820,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )        
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
+            InlineKeyboardButton(' Back', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
