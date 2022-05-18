@@ -336,7 +336,7 @@ async def start(client, message):
             InlineKeyboardButton('🔰 𝔸𝔹𝕆𝕌𝕋 🔰', callback_data='about')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_chat_action("Typing")
+        await message.reply_chat_action("CP_JUPITER")
         m=await message.reply_sticker("CAACAgUAAxkBAAIFNGJSlfOErbkSeLt9SnOniU-58UUBAAKaAAPIlGQULGXh4VzvJWoeBA") 
         await asyncio.sleep(1)
         await m.delete()        
@@ -379,7 +379,7 @@ async def start(client, message):
             InlineKeyboardButton('🔰 𝔸𝔹𝕆𝕌𝕋 🔰', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_chat_action("Typing")
+        await message.reply_chat_action("CP_JUPITER")
         m=await message.reply_sticker("CAACAgUAAxkBAAIFNGJSlfOErbkSeLt9SnOniU-58UUBAAKaAAPIlGQULGXh4VzvJWoeBA") 
         await asyncio.sleep(1)
         await m.delete()
